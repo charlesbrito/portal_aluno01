@@ -1,0 +1,12 @@
+# Ambiente virtual
+venv/
+.venv/
+
+# Variáveis de ambiente (nunca subir suas senhas!)
+.env
+
+# Cache do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd

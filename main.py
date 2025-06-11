@@ -1,6 +1,7 @@
 from fastapi import FastAPI, status, Depends, HTTPException
-from Autenticador_JWT import models, auth
-from Autenticador_JWT.database import engine, SessionLocal
+from Autenticador_JWT import auth
+from banco_de_dados.database import engine, SessionLocal
+from banco_de_dados import models
 from Autenticador_JWT.auth import get_current_user
 from sqlalchemy.orm import Session
 from typing import Annotated
